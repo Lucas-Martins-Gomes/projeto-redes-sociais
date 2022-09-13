@@ -42,3 +42,22 @@ iframe#tela {
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*para deixar as imagens redondas*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400) ;
+    box-sizing: border-box;/*Usado para que ao colocar a seta sobre uma das imagens arredondadas as demais não se levantem juntas. Apenas a que estiver selecionada receberá a ação do hover descrito abaixo*/
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.589);
+    transform: translate(-3px, -3px); /*Para as imagens arredondadas darem uma leve levantada quando a seta do mouse estiver em cima*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+    transition: transform 0.5s, border 0.6s;/*Usado para que o movimento para o lado descrito no transforme não seja de imediato, assim como, o apareciemnto da borda*/
+}
