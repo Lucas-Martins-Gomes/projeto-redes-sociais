@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    /* Todo o código acima foi utilizado para sumir com a barra de rolagem da página. Isto porque, esta tela será apresentada dentro do iframe da página index.*/
+}
+
+img {
+    width: 100vw;
+}
+
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+}
